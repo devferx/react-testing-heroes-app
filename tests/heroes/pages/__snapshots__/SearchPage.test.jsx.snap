@@ -16,7 +16,9 @@ exports[`Pruebas en <SearchPage /> debe de mostrarse correctamente con valores p
         Searching
       </h4>
       <hr />
-      <form>
+      <form
+        aria-label="Search form"
+      >
         <input
           autocomplete="off"
           class="form-control"
